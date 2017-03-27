@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+.normal
+{
+	font-family:Arial;
+	font-size:12px;
+}
+.link-group1 a:link,.link-group1 a:hover
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 color:White;
+	 text-decoration:none;
+	 	
+}
+
+.link-group1 a:visited
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 color:White;
+	 text-decoration:none;	
+}
+.link-group3 a:link,.link-group3 a:visited
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 /*color:#a2a29a;*/
+	 color:#a8421c;
+}
+
+.link-group3 a:hover
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 /*color:#a2a29a;*/
+	 color:Black;
+}
+.header-home
+{
+	 font-family:Arial;
+	 font-size:20px;
+	 color:#a33512;
+	 font-weight:bold;	
+}
+
+
+.table-style {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	border-width: 1; 
+	border-style: solid; 
+	border-color: #a0a0a0; 
+	background-color: #ffffff;
+	font-family:  arial; 
+	font-size: 12px;
+	}
+
+
+
+
+
+
+	/* Default attributes of DIV containing table container for entire popup calendar.
+	 * You probably don't want to alter this style.
+	 */
+.div-style {
+	z-index: 999;
+	position: absolute;
+	visibility: hidden;
+	}
+
+	/* Default attributes used in popup calendar title (month and year columns).*/
+.title-style {
+	padding: 2px;
+	font-family: Arial; 
+	font-size: 12px;
+	color: #ffffff;
+	}
+
+	/* Default attributes used in popup calendar title background.*/
+.title-background-style {
+	background-color: black;
+	}
+
+	/* Normal appearance of controls in popup calendar title. */
+	/* Note: The right, left and down icons are images, which must be edited if you need to change them. */
+.title-control-normal-style {
+	border-style: none;
+/*	border-width: 1;
+	border-color: black; */
+	cursor: pointer;
+	}
+
+	/* Moused-over (selected) appearance of controls in popup calendar title. */
+.title-control-select-style {
+	/*border-style: solid;
+	border-width: 1;
+	border-color: #3a6ea5; */
+	cursor: pointer;
+	}
+
+	/* Default attributes of drop down lists (month and year). */
+.dropdown-style {
+	font-family: arial; 
+	font-size: 12px; 
+	border-width: 1; 
+	border-style: solid; 
+	background-color: black;
+	border-color: #cccccc;
+	color: White;
+	cursor: default;
+	}
+
+	/* Default attributes selected (mouse-over) item in drop down lists (month and year). */
+.dropdown-select-style {
+	background-color: red;
+	cursor: hand;
+	}
+
+	/* Default attributes unselected (mouse-off) item in drop down lists (month and year). */
+.dropdown-normal-style {
+	background-color: #0;
+	}
+
+	/* Default attributes of popup calendar body (weekday titles and numbers). */
+.body-style {
+	padding: 5px;
+	background-color: white;
+	font-family: arial, verdana; 
+	font-size: 11px;
+	}
+
+	/* Attributes of current day in popup calendar body. */
+.current-day-style {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+	/* Attributes of end-of-week days (Sundays) in popup calendar body. */
+.end-of-weekday-style {
+	color: #909090;
+	text-decoration: none;
+	}
+
+	/* Attributes of all other days in popup calendar body. */
+.normal-day-style {
+	color: black;
+	text-decoration: none;
+	}
+
+	/* Attributes of border around selected day in popup calendar body. */
+.selected-day-style {
+	border-style: solid;
+	border-width: 1px; 
+	border-color: #a0a0a0;
+	color: #2f2118;
+	font-weight: bold;
+	}
+
+	/* Default attributes of designated holidays. */
+.holiday-style {
+	background-color: #FFDDDD;
+	}
+
+	/* Attributes of today display at bottom on calendar */
+.today-style {
+	padding: 0px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	}
+
+	/* Attributes of week number division (divider.gif) */
+.weeknumber-div-style {
+	background-color: #2f2118; 
+	padding: 0px;
+	}
+
+
+.TimeDropDown {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 12px;
+    color: #000;	
+	}
+	
+.normal
+{
+	font-family:Arial;
+	font-size:12px;
+}
+
+.link-group1 a:link,.link-group1 a:hover
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 color:White;
+	 text-decoration:none;
+	 	
+}
+
+.link-group1 a:visited
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 color:White;
+	 text-decoration:none;	
+}
+
+.header-home
+{
+	 font-family:Arial;
+	 font-size:20px;
+	 color:#a33512;
+	 font-weight:bold;	
+}
+
+.link-group2 a:link,.link-group2 a:hover
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 color:Black;
+}
+
+.link-group2 a:visited
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 text-decoration:none;	
+	 font-weight:normal;
+	 color:Black;
+}
+
+.link-group3 a:link,.link-group3 a:visited
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 /*color:#a2a29a;*/
+	 color:#a8421c;
+}
+
+.link-group3 a:hover
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 /*color:#a2a29a;*/
+	 color:Black;
+}
+
+
+
+
+.blog-header a:link,.blog-header a:hover,.blog-header a:visited
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:#a8421c;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+.blog-readmore a:link,.blog-readmore a:hover,.blog-readmore a:visited
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 color:#a00002;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+.blog-header-single
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:#a8421c;
+	 font-weight:bold;
+}
+
+.blog-comment-header
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 color:#a8421c;
+	 font-weight:bold;
+	 
+}
+
+.blog-header-home a:link,.blog-header-home a:visited
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 color:#a8421c;
+	 font-weight:bold;
+	 text-decoration:none;
+}
+
+.blog-header-home a:hover
+{
+	 font-family:Arial;s
+	 font-size:14px;
+	 color:#6e6e70;
+	 font-weight:bold;
+	 text-decoration:none;
+}
+
+.contact-border
+{
+	 border:solid 1px #3e7490;
+	 font-family:Arial;
+	 font-size:12px;	
+}
+
+.project-header a:link,.project-header a:hover,.project-header a:visited
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:#a33512;
+	 font-weight:bold;
+	 text-decoration:none;
+}
+
+.job-header-home a:link,.job-header-home a:hover,.job-header-home a:visited
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 color:#a33512;
+	 font-weight:bold;
+	 text-decoration:none;
+}
+
+.job-header-detail
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:#a33512;
+	 font-weight:bold;
+	 text-decoration:none;
+}
+
+.testimonial-link a:link,.testimonial-link a:visited
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 color:Black;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+.testimonial-link a:hover
+{
+	 font-family:Arial;
+	 font-size:14px;
+	 color:#a8421c;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+a:link,a:visited
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 color:#a8421c;
+}
+
+a:hover
+{
+	 font-family:Arial;
+	 font-size:12px;
+	 text-decoration:none;
+	 font-weight:normal;
+	 color:Black;
+}
+
+.gallery-detail-header
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:#a33512;
+	 font-weight:bold;
+}
+
+.link-control a:link,.link-control a:visited
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:#a33512;
+	 font-weight:normal;
+	 text-decoration:none;
+}
+
+.link-control a:hover
+{
+	 font-family:Arial;
+	 font-size:16px;
+	 color:Black;
+	 font-weight:normal;
+	 text-decoration:none;
+}

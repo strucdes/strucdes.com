@@ -412,3 +412,8 @@ a:hover
 	 font-weight:normal;
 	 text-decoration:none;
 }
+
+.pull-right
+{
+	float: right;
+}
